@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 50vw;
+    height: 50vh;
+    background-color: black;
+
+
+}
+
+.inner-element{
+   background-color: red;
+   width: 50px;
+   height: 50px;
+   position: absolute;
+   touch-action: none;
+}
